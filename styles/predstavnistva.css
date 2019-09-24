@@ -1,0 +1,55 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 10px;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+    border-radius: 16px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.divosijek{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.divzagreb{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.divrijeka{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.divsplit{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    opacity: .8;
+    z-index: 9999;
+    position: absolute;
+    bottom: 0px;
+}

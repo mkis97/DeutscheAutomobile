@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    background-color: gainsboro;
+    height: 100%;
+    width: 100%;
+}
+
+.footer_txt{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.7px;
+    font-style: italic;
+}

@@ -1,0 +1,67 @@
+.parallax_bmw { 
+    background-image: url(bmw_parallax.jpg);
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax_mb { 
+    background-image: url(mb_parallax.jpg);
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax_vw { 
+    background-image: url(vw_parallax.jpg);
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax_txt{
+      background-color: bisque;
+      padding: 50px;
+      font-size: 16px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .on_parallax_txt{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    color: whitesmoke;
+    font-style: oblique;
+    animation-name: example;
+    animation-duration: 1s;
+  }
+
+  @keyframes example {
+    0%{opacity: 0.0; font-size: 0px;}
+    10%{opacity: 0.1; font-size: 5px;}
+    20%{opacity: 0.2; font-size: 10px;}
+    30%{opacity: 0.3; font-size: 15px;}
+    40%{opacity: 0.4; font-size: 20px;}
+    50%{opacity: 0.5; font-size: 25px;}
+    60%{opacity: 0.6; font-size: 30px;}
+    70%{opacity: 0.7; font-size: 35px;}
+    80%{opacity: 0.8; font-size: 40px;}
+    90%{opacity: 0.9; font-size: 45px;}
+    100%{opacity: 1; font-size: 50px;}
+  }
+
+  footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    opacity: .8;
+    z-index: 9999;
+  }
